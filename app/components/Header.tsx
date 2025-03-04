@@ -1,6 +1,7 @@
 "use client";
 
 import { Navbar, Dropdown } from "flowbite-react";
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -22,8 +23,8 @@ export default function Header() {
         <Navbar.Link href="#" active className="py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 dark:text-white md:dark:text-blue-500">
           Home (Book Now or List Events?)
         </Navbar.Link>
-        <Navbar.Link href="#" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500">
-          Create Event
+        <Navbar.Link href="/create" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500">
+          Create
         </Navbar.Link>
         <Navbar.Link href="#" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500">
           Marketing
