@@ -9,7 +9,7 @@ export const metadata = {
   title: "Event Ticketing Platform",
   description: "An event ticketing platform using Next.js and TailwindCSS.",
   icons: {
-    icon: "/tickets_white.svg",
+    icon: "/etp-caragh/tickets_white.svg",
   },
 };
 
