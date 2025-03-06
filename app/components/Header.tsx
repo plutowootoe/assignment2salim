@@ -2,15 +2,17 @@
 
 import { Navbar } from "flowbite-react";
 import Link from "next/link";
-
+import Image from "next/image";
 
 
 export default function Header() {
+ 
+
   return (
     <Navbar fluid={true} rounded={true} className="w-full bg-white border-gray-200 dark:bg-gray-900 shadow-md">
       {/* Logo */}
       <Navbar.Brand href="#" className="flex items-center space-x-4">
-        <img src="/tickets.svg" className="h-8" alt="MasterTicket Logo" />
+        <Image src="/tickets.svg" className="h-8" alt="MasterTicket Logo" />
         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-gray-700">
           MasterTicket
         </span>
@@ -26,7 +28,7 @@ export default function Header() {
           Home (Book Now or List Events?)
         </Navbar.Link>
         {/* change these to next links  */}
-        <Navbar.Link as={Link} href={`${process.env.NEXT_PUBLIC_BASE_PATH}/create`} className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500">
+        <Navbar.Link as={Link} href="/create" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500">
           Create
         </Navbar.Link>
         <Navbar.Link as={Link} href="#" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500">
