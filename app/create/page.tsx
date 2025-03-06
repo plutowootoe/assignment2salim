@@ -16,7 +16,7 @@ const router = useRouter()
     <Card
      className="h-200 flex flex-col shadow-lg"
       imgAlt="Meaningful alt text for an image that is not purely decorative"
-      imgSrc="/images/view-venue.jpg"
+      imgSrc="/etp-caragh/images/view-venue.jpg"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
       Venues
@@ -30,7 +30,7 @@ const router = useRouter()
     <Card
          className="h-200 flex flex-col shadow-lg"
       imgAlt="Meaningful alt text for an image that is not purely decorative"
-      imgSrc="/images/create-event.jpg"
+      imgSrc="/etp-caragh/images/create-event.jpg"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Events
