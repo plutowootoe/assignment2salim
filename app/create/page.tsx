@@ -21,7 +21,7 @@ const router = useRouter()
       Venues
       </h5>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-       Look for your event's perfect venue here!
+       Look for your events perfect venue here!
       </p>
       <Button gradientDuoTone="purpleToBlue" onClick={() => router.push('/create/view-venues')}>Browse Venues</Button>
     </Card>

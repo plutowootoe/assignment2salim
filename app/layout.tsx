@@ -3,7 +3,7 @@
 import './globals.css'
 import Header from "./components/Header";
 import FooterComponent from "./components/Footer";
-import Head from 'next/head';
+
 
 export const metadata = {
   title: "Event Ticketing Platform",
