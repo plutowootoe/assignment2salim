@@ -11,11 +11,14 @@ export default function Header() {
   return (
     <Navbar fluid={true} rounded={true} className="w-full bg-white border-gray-200 dark:bg-gray-900 shadow-md">
       {/* Logo */}
-      <Navbar.Brand href="#" className="flex items-center space-x-4">
-        <Image src="/etp-caragh/tickets.svg" className="h-8" alt="MasterTicket Logo" />
+      <Navbar.Brand href="#" className="flex items-center space-x-2">
+      <div className="relative w-8 h-8 flex-shrink-0"> {/* Fixed size for the logo */}
+        <Image src="/etp-caragh/tickets.svg" fill className="h-8 object-contain" alt="MasterTicket Logo" />
+        </div>
         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-gray-700">
           MasterTicket
         </span>
+
       </Navbar.Brand>
 
       {/* Toggle Button (for mobile screens) */}

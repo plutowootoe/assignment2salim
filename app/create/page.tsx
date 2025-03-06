@@ -24,7 +24,7 @@ const router = useRouter()
       <p className="font-normal text-gray-700 dark:text-gray-400">
        Look for your events perfect venue here!
       </p>
-      <Button gradientDuoTone="purpleToBlue" onClick={() => router.push("create/view-venues")}>Browse Venues</Button>
+      <Button gradientDuoTone="purpleToBlue" onClick={() => router.push("/create/view-venues")}>Browse Venues</Button>
     </Card>
 
     <Card
@@ -38,7 +38,7 @@ const router = useRouter()
       <p className="font-normal text-gray-700 dark:text-gray-400">
       Create and customise your own event!
       </p>
-      <Button  gradientDuoTone="purpleToBlue" onClick={() => router.push("create/create-event")}>Start Creating</Button>
+      <Button  gradientDuoTone="purpleToBlue" onClick={() => router.push("/create/create-event")}>Start Creating</Button>
     </Card>
     </div>
     </div>
