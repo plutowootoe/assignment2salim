@@ -6,7 +6,7 @@ interface CarouselCardProps {
     imgSrc: string;
   }
 
-import { Carousel, Card } from "flowbite-react";
+import { Carousel } from "flowbite-react";
 import Image from "next/image";
 
 
