@@ -2,12 +2,10 @@
 
 import { Navbar } from "flowbite-react";
 import Link from "next/link";
-import getConfig from "next/config";
 
 
 
 export default function Header() {
-  const { publicRuntimeConfig } = getConfig();
   return (
     <Navbar fluid={true} rounded={true} className="w-full bg-white border-gray-200 dark:bg-gray-900 shadow-md">
       {/* Logo */}
@@ -28,7 +26,7 @@ export default function Header() {
           Home (Book Now or List Events?)
         </Navbar.Link>
         {/* change these to next links  */}
-        <Navbar.Link as={Link} href={`${publicRuntimeConfig.basePath}/create`} className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500">
+        <Navbar.Link as={Link} href={`${process.env.NEXT_PUBLIC_BASE_PATH}/create`} className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500">
           Create
         </Navbar.Link>
         <Navbar.Link as={Link} href="#" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500">

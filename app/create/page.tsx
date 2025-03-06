@@ -3,12 +3,11 @@
 
 import { Card, Button } from "flowbite-react";
 import { useRouter } from "next/navigation";
-import getConfig from "next/config";
+
 
 
 export default function Page() {
 const router = useRouter() 
-const { publicRuntimeConfig } = getConfig();
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-8">
@@ -25,7 +24,7 @@ const { publicRuntimeConfig } = getConfig();
       <p className="font-normal text-gray-700 dark:text-gray-400">
        Look for your events perfect venue here!
       </p>
-      <Button gradientDuoTone="purpleToBlue" onClick={() => router.push(`${publicRuntimeConfig.basePath}/create/view-venues`)}>Browse Venues</Button>
+      <Button gradientDuoTone="purpleToBlue" onClick={() => router.push(`${process.env.NEXT_PUBLIC_BASE_PATH}/create/view-venues`)}>Browse Venues</Button>
     </Card>
 
     <Card
@@ -39,7 +38,7 @@ const { publicRuntimeConfig } = getConfig();
       <p className="font-normal text-gray-700 dark:text-gray-400">
       Create and customise your own event!
       </p>
-      <Button  gradientDuoTone="purpleToBlue" onClick={() => router.push(`${publicRuntimeConfig.basePath}/create/create-event`)}>Start Creating</Button>
+      <Button  gradientDuoTone="purpleToBlue" onClick={() => router.push(`${process.env.NEXT_PUBLIC_BASE_PATH}/create/create-event`)}>Start Creating</Button>
     </Card>
     </div>
     </div>
