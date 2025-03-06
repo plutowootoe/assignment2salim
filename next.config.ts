@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   basePath: "/etp-caragh",
   assetPrefix: "/etp-caragh/",
   trailingSlash: true,
+  publicRuntimeConfig: { // Ensure basePath is available in the frontend
+    basePath: "/etp-caragh",
+  },
 };
 
 export default nextConfig;
