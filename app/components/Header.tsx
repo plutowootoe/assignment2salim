@@ -12,7 +12,7 @@ export default function Header() {
     <Navbar fluid={true} rounded={true} className="w-full bg-white border-gray-200 dark:bg-gray-900 shadow-md">
       {/* Logo */}
       <Navbar.Brand href="#" className="flex items-center space-x-4">
-        <Image src="/etp-caragh/public/tickets.svg" className="h-8" alt="MasterTicket Logo" />
+        <Image src="/etp-caragh/tickets.svg" className="h-8" alt="MasterTicket Logo" />
         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-gray-700">
           MasterTicket
         </span>
