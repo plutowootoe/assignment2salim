@@ -4,7 +4,8 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export", // static export for github pages
   basePath: "/etp-caragh",
-  assetPrefix: "/etp-caragh/"
+  assetPrefix: "/etp-caragh/",
+  trailingSlash: true,
 };
 
 export default nextConfig;
