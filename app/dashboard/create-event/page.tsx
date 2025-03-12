@@ -1,7 +1,7 @@
 "use client";
 
 import Footer from "@/app/components/Footer";
-import { Button, TextInput, Textarea, Select, Card } from "flowbite-react";
+import { Button, TextInput, Textarea, Select } from "flowbite-react";
 import React, { useState, ChangeEvent, FormEvent } from "react";
 
 interface Venue {

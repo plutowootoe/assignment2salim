@@ -1,7 +1,6 @@
 // These styles apply to every route in the application
 import "./globals.css";
 import Header from "./components/Header";
-import FooterComponent from "./components/Footer";
 
 export const metadata = {
   title: "Event Ticketing Platform",

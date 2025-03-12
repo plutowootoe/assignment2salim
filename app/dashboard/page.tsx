@@ -1,6 +1,6 @@
 "use client";
 
-import { Card, Button } from "flowbite-react";
+import { Button } from "flowbite-react";
 import { useRouter } from "next/navigation";
 import Footer from "../components/Footer";
 
