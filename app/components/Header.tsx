@@ -44,10 +44,10 @@ export default function Header() {
           {/* change these to next links  */}
           <Navbar.Link
             as={Link}
-            href="/dashboard"
+            href="/dashboard/manage-tickets"
             className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500"
           >
-            Manage Event
+            Manage My Tickets
           </Navbar.Link>
         </div>
       </Navbar.Collapse>
