@@ -8,19 +8,19 @@ const tickets = [
     {
         id: 1,
         artist: 'Artist 1',
-        image: '/etp-caragh/images/mj.jpg',
+        image: '/assignment2salim/images/mj.jpg',
         price: '€50',
     },
     {
         id: 2,
         artist: 'Artist 2',
-        image: '/etp-caragh/images/jh.jpg',
+        image: '/assignment2salim/images/jh.jpg',
         price: '€60',
     },
     {
         id: 3,
         artist: 'Artist 3',
-        image: '/etp-caragh/images/outkast.jpg',
+        image: '/assignment2salim/images/outkast.jpg',
         price: '€70',
     },
 ];

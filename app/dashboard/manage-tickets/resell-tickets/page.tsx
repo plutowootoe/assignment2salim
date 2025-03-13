@@ -21,7 +21,7 @@ const ResellTicketsPage: React.FC = () => {
 
     const handleSubmit = () => {
         alert('Ticket resell submitted successfully!');
-        window.location.href = 'assignment2salim/dashboard/manage-tickets';
+        window.location.href = '/assignment2salim/dashboard/manage-tickets';
     };
 
     return (
